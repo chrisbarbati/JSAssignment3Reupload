@@ -1,0 +1,101 @@
+body
+{
+    font-family: sans-serif;
+    background-image: url('../images/background.jpg'); 
+    background-repeat:no-repeat;
+    margin: auto;
+    width: 1200px;
+    padding: 2em;
+   
+}
+/* Define the checked class to apply line-through style to completed tasks */
+li.checked {
+    text-decoration: line-through  !important;
+    /* You can add any other styling you want for the completed tasks */
+    color: red;
+    font-weight: 300;
+font-family:Arial, Helvetica, sans-serif;
+    background-color: yellow;
+    transition: color 0.5s ease;
+    border:3px solid blue;
+    margin: 10px;
+  }
+#delete-message{
+    width: 500px;
+    margin-top: 2em;
+    margin-left: 18em ;
+    display:none; 
+    color: red;
+    font-weight: 300;
+    background-color: white;
+    font-weight:500;
+    border: 2px solid red;
+}
+body h1
+{
+    color: blue;
+    background-color: rgba(146, 146, 146, 0.63);
+    width: 6em;
+    font-weight:800;
+    font-family: cursive;
+    font-size: 36px;
+    text-align: center;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-top: .25em;
+    margin-bottom: 0;
+
+    border: 2px solid black;
+    border-radius: 1em;
+}
+.input
+{
+    padding-left: 30%;
+    padding-bottom: 2%;
+    
+}
+input[type=text] {
+    width: 55%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-color: aqua;
+    border-radius: 15px;
+  }
+.button1
+{
+    padding-left: 48%;
+    font-family: sans-serif;
+
+}
+
+button
+{
+    font-size: 25px;
+    border-radius: 12px;
+}
+.sectionlist
+{
+    padding-top: 2%;
+    padding-left: 30%;
+}
+.tasks
+{
+    padding-left: 15%;
+    width: 50%;
+    height: 40%;
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px;
+    background-color: greenyellow;
+}
+
+.tasks button
+{
+    font-size: 20px;
+    border-style: solid;
+    border-radius: 12px;
+    background-color: red;
+}

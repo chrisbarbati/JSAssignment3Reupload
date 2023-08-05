@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>To-Do List | COMP1073 Client-Side JavaScript</title>
+	<link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+    <h1>To-Do List</h1>
+    <section class="todolist">
+        <div class="input">   
+        <input type="text" name="listinput" placeholder="Please Enter Task">  
+        </div>
+        <div class="button1">
+        <button class="btn btn-primary">Submit</button>
+        <br>
+        </div>
+         <audio id="ding-sound" src="images/ding-idea-40142.mp3" preload="auto" style="display: none;"></audio>
+        <div id="delete-message">
+            Please delete your checked items before entering new tasks.
+          </div>
+        <section class="sectionlist">
+        <div id="tasks">  
+            <ul id="list">
+
+            </ul>
+        </div>
+    </section>
+    </section>
+    <script src="js/script.js"></script>   
+</body>
+</html>
